@@ -3,7 +3,7 @@
 ## Action Item
 
 1. Open your "Ubuntu" application
-2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/wsl-phase-0-manual-setup-validator.sh | bash 2> /dev/null`
+2. Type `curl -so- https://raw.githubusercontent.com/FS-Academy-Xi/flatiron-manual-setup-validator/master/wsl-phase-0-manual-setup-validator.sh | bash 2> /dev/null`
 
 ## Check Your Work
 
@@ -29,7 +29,7 @@ mv ~/.bashrc{,.bak}
 The second command replaces the contents of your `.bashrc` file with a default file:
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/minimal-bashrc > ~/.bashrc
+curl -sSL https://raw.githubusercontent.com/FS-Academy-Xi/dotfiles/master/minimal-bashrc > ~/.bashrc
 ```
 
 Close and reopen your terminal. With a new `.bashrc` file, we can now test out each tool.
@@ -228,7 +228,7 @@ This error is typically due to issues in the `~/.learn-config` file.
 
     ```sh
     ---
-    :learn_directory: "/Users/< username >/Flatiron/code"
+    :learn_directory: "/Users/< username >/academyxi/code"
     :editor: code
     ```
 
